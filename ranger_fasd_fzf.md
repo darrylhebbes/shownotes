@@ -22,8 +22,9 @@ https://www.youtube.com/watch?v=ur81Y-mV5Us
 ### commands
     vim ~/.config/ranger/commands.py
     
-
     # fzf_fasd - Fasd + Fzf + Ranger (Interactive Style)
+    from ranger.api.commands import Command
+    
     class fzf_fasd(Command):
         """
         :fzf_fasd
